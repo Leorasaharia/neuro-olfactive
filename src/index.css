@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxury-ivory: #F9F9F7;
+  --color-luxury-charcoal: #1A1A1A;
+  --color-luxury-gold: #C5A065;
+  --color-luxury-gray: #E5E5E5;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  background-color: var(--color-luxury-ivory);
+  color: var(--color-luxury-charcoal);
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
